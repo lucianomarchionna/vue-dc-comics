@@ -97,11 +97,11 @@ export default {
 .nav-items{
     list-style: none; 
     display: flex; 
-    font-size: 13px;
+    font-size: 12px;
     line-height: 95px;
 }
 .nav-item{
-    padding: 0px 14px;
+    padding: 0px 15px;
     color: black;
     cursor: pointer;
     a{
