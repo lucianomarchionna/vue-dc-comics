@@ -2,7 +2,8 @@
   <div id="app">
     <Header/>
     <main>
-      <Banner/>    
+      <Banner/>
+      <ChooseComics/>    
     </main>
     <Footer/>
     </div>
@@ -11,6 +12,7 @@
 <script>
 import Header from '@/components/Header.vue'
 import Banner from '@/components/Banner.vue'
+import ChooseComics from '@/components/ChooseComics.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -18,11 +20,12 @@ export default {
   components: {
     Header,
     Banner,
+    ChooseComics,
     Footer,
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/generals";
+@import "style/generals";
 </style>

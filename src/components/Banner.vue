@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/style/generals";
+@import '@/style/generals.scss';
 .banner{
     width: 100%;
     height: 400px;

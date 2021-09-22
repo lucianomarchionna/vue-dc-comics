@@ -109,16 +109,16 @@ export default {
         color: inherit;
         font-weight: 600;
         &:hover{
-        color: $primary;
+        color: $primary-color;
     }
 }
     &:hover{
-        color: $primary;
-        border-bottom: 5px solid $primary;
+        color: $primary-color;
+        border-bottom: 5px solid $primary-color;
     }
     &.active{
-        color: $primary;
-        border-bottom: 5px solid $primary;
+        color: $primary-color;
+        border-bottom: 5px solid $primary-color;
     }
 }
 </style>
